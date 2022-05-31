@@ -1,0 +1,13 @@
+(9:14:44 PM) thisProfit: $8,862,347,905	totalling: $8,862,347,905
+(9:14:44 PM) thisProfit: $106,364,743,165	totalling: $115,227,091,070
+(9:14:44 PM) thisProfit: $6,672,988,101	totalling: $121,900,079,171
+(9:14:44 PM) thisProfit: $4,843,086,650	totalling: $126,743,165,820
+(9:14:44 PM) thisProfit: $1,222,272,713	totalling: $127,965,438,534
+(9:24:28 PM) thisProfit: $7,286,139,506	totalling: $135,251,578,039
+(9:30:00 PM) thisProfit: $140,980,826,333	totalling: $276,232,404,372
+(9:30:00 PM) thisProfit: $15,919,015,772	totalling: $292,151,420,144
+(9:30:00 PM) thisProfit: $4,887,255,282	totalling: $297,038,675,426
+(9:30:00 PM) thisProfit: $7,423,840,627	totalling: $304,462,516,053
+(9:37:21 PM) thisProfit: $100,973,190,587	totalling: $405,435,706,641
+(9:37:21 PM) thisProfit: $35,124,204,768	totalling: $440,559,911,409
+(9:37:21 PM) thisProfit: -$1,006,693,382	totalling: $439,553,218,027

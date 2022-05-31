@@ -1,0 +1,29 @@
+autonuke.js
+	- daemonized
+	- 
+
+autoGrow.js
+	- impliment max wait to sleep before running again (will be slower than checking each and every batch for now)
+
+script to find all *close* servers
+	- ones that are within x% of current hack
+	- ones that can be hacked, but missing port openers
+
+scpf.js
+	- catch exceptions for trying to scp files that aren't vaild
+
+serverMonitor.js
+	- check to see that there are scripts running (IN PROGRESS)
+	- display servers that have money to be hacked, listed as the state they're in
+		* weaken
+		* grow
+		* hack
+	- display progress as bar
+	
+ports
+	- there's also a bunch here about auto complete getting better
+	- perhaps use them to put 1 piece of data in, json object. that's used to pop and push new data in with list of servers running it.
+		* autoGrow.js would put a list of new servers in when it launches the ws.js and gs.js processes
+		* ws.js and gs.js update stripped of the server it's running on.
+		* pop first, then push. should always be null when pushing in new data (error out if this happens?).
+		* null data on read means wait
