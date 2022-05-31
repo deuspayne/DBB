@@ -1,4 +1,10 @@
 export function autocomplete(data, args) {
+	// TODO proper flagging.
+    // data.flags(argsSchema);
+    // const lastFlag = args.length > 1 ? args[args.length - 2] : null;
+    // if (lastFlag == "--disable-script" || lastFlag == "--run-script")
+    //     return data.scripts;
+    // return [];
 	let scripts = [];
 	data.scripts.forEach(element => {
 		scripts.push("s=" + element);
