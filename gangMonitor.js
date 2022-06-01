@@ -1,3 +1,4 @@
+// TODO see if there's a way to put in percent discount
 let argSchema = [
 	['tail', false],
 	['help', false],
