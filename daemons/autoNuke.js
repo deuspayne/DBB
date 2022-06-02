@@ -38,7 +38,7 @@ export async function main(ns) {
 				try { ns.sqlinject(serverName); } catch { }
 				try { ns.nuke(serverName); } catch { }
 				hackedSomething = true;
-				await ns.write(_outFile, `${serverName} is cracked\n`, _writeMode);
+				// await ns.write(_outFile, `${serverName} is cracked\n`, _writeMode);
 			}
 		}
 		if (hackedSomething) {

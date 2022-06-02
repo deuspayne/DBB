@@ -16,7 +16,7 @@ export async function main(ns) {
 	let argFlags = ns.flags(argSchema);
 	let symList = (argFlags._.length > 0) ? argFlags._ : _symbols; // ns.stock.getSymbols();
 	let outfile = "/output/stockProfit.txt";
-	let writeMode = "a"; // w = overwrite, a = append
+	let writeMode = "w"; // w = overwrite, a = append
 	let totalProfit = 0;
 
 	// TODO do all this while loop below in the gathering of data, and get new stockObject every loop
