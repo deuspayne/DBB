@@ -60,10 +60,10 @@ export function buildFlags(ns, passedSchema) {
     ];
     let argFlags = {};
     try {
-    	// duplicate entries in the schema are resolved as last in list
-    	// passed schema will in effect override defaults
-    	//  although --help and -h probably shouldn't be overriden.
-    	// TODO perhaps put in some sort of check before bailing on help/h flag
+        // duplicate entries in the schema are resolved as last in list
+        // passed schema will in effect override defaults
+        //  although --help and -h probably shouldn't be overriden.
+        // TODO perhaps put in some sort of check before bailing on help/h flag
         argFlags = ns.flags([...defaultSchema, ...passedSchema]);
     } catch {
         ns.tprint("ERROR: Couldn't process flags schema. Likely invalid flag passed");
