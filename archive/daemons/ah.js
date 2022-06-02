@@ -1,4 +1,4 @@
-// import { buildServerList } from '/lib/helpers.js';
+// import { buildServerList } from 'libHelpers.js';
 // HACKS 10% of total money. and that's it.
 export function autocomplete(data, args) { return [...data.servers]; }
 /** @param {NS} ns */

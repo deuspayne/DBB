@@ -1,6 +1,6 @@
 // TODO build better logic for how much to grow/weaken. don't need to ONLY weaken, but just prioritize how many threads go to it
 
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 
 let confSchema = [
     ['skip', false],

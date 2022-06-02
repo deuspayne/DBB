@@ -1,4 +1,4 @@
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 
 export function autocomplete(data, args) {
     return [...data.servers, ...data.scripts];

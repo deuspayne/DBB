@@ -1,4 +1,4 @@
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 
 let argSchema = [
     ['tail', false],

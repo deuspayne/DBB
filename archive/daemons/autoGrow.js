@@ -1,5 +1,5 @@
 // TODO in progress, needs a lot of work still
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 
 export function autocomplete(data, _) { return [...data.servers]; }
 

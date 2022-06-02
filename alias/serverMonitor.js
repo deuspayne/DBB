@@ -1,4 +1,4 @@
-import { buildServerList, getScriptsByArgs } from '/lib/helpers.js';
+import { buildServerList, getScriptsByArgs } from 'libHelpers.js';
 
 export function autocomplete(data, args) {
     return [...data.servers, "--tail"];
@@ -38,7 +38,7 @@ export async function main(ns) {
                 // ns.exec("smartHack.js", "home", nThreads, serverName);
 
                 // puts the file on the server
-                await ns.scp("/lib/helpers.js", serverName);
+                await ns.scp("libHelpers.js", serverName);
                 await ns.scp(scriptName1, serverName);
                 let whereToRun = serverName;
                 if (serverObject.maxRam < ns.getScriptRam(scriptName1, whereToRun)) whereToRun = "home"; // TODO better logic for failover of where to launch

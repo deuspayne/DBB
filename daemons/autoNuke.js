@@ -1,5 +1,5 @@
 // TODO put in auto-buy for port opening files (needs singularity API access Bit-Node 5?)
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 
 let _outFile = "/output/autoNuke.txt";
 let _writeMode = "a";

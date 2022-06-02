@@ -1,4 +1,4 @@
-import { buildServerList } from '/lib/helpers.js';
+import { buildServerList } from 'libHelpers.js';
 /** @param {NS} ns */
 export async function main(ns) {
 	let hostList = buildServerList(ns);

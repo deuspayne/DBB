@@ -1,4 +1,4 @@
-// TODO get serverList from /lib/helpers.js
+// TODO get serverList from libHelpers.js
 
 export function autocomplete(data, args) {
     return [...data.servers, ...data.scripts];
