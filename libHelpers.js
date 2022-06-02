@@ -33,9 +33,9 @@ export function getScriptsByArgs(ns, grepStr) {
 
 /** Helper to get a list of running scripts on the network that have the passed val as the script
  * @param {NS} ns - The nestcript instance passed to your script's main entry point 
- * @param {string} grepStr - The string of the argument to find in the running scripts (null val will return all scripts)
+ * @param {string} grepStr - The string of the scriptname to find in the running scripts (null val will return all scripts)
  * @returns process[] */
-export function getScriptsByArgs(ns, grepStr) {
+export function getScriptsByName(ns, grepStr) {
     checkNsInstance(ns, '"getScriptsByArgs"');
     let foundScripts = [];
     for (const serverName of buildServerList(ns)) {
